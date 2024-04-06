@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @gmbro
 - 👀 I’m interested in prediving
 - 🌱 I’m currently learning prompt design
-- 💞️ I’m looking to collaborate on Naver
+- 💞️ I’m looking to collaborate on LLM project
 - 📫 How to reach me gmbro@kakao.com
 - 😄 Pronouns: AI PM 
 - ⚡ Fun fact: I'm,, personal trainer!!💪
