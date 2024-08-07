@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Number to Test Key</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>휴대폰번호 조회 후 접근키 발급받기</h3>
+        <form id="phone-form">
+            <div class="input-group">
+                <input type="text" id="phone-input" placeholder="휴대폰번호 입력">
+                <button type="submit" id="search-button">조회</button>
+            </div>
+        </form>
+        <div id="result-message" class="message"></div>
+        <div class="output-group">
+            <label for="test-number">TEST 번호:</label>
+            <input type="text" id="test-number" readonly>
+        </div>
+        <div class="output-group">
+            <label for="rx-code">RX 접근키:</label>
+            <input type="text" id="rx-code" readonly>
+            <button id="copy-rx">복사</button>
+        </div>
+        <div class="output-group">
+            <label for="tx-code">TX 접근키:</label>
+            <input type="text" id="tx-code" readonly>
+            <button id="copy-tx">복사</button>
+        </div>
+        <button id="test-page-button">테스트 페이지 바로가기</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
